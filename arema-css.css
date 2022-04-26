@@ -1,0 +1,589 @@
+body {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    color: #00355A;
+    text-align: center;
+  
+    
+    /*border-style: solid;*/
+    
+}
+img {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+/*
+
+                                                                 Navigation Bar & Logo
+*/
+
+.container {
+	   max-width: 100%;/*1920px;*/
+  	   margin-right: auto;
+       margin-left: auto;
+       
+         
+}
+
+.wrapper ul{
+    text-align: left;
+    margin-top: 20px;;
+    display: inline-flex;
+    list-style: none;
+}
+.wrapper ul li{
+    
+    margin-top: 21px;
+    margin-right: 21px;
+    margin-left: 21px;
+    margin-bottom: 0px;
+
+}
+.wrapper ul li a{
+    
+    text-decoration: none;
+    color: #00355A;
+    
+}
+ .wrapper ul li a:hover{
+    text-shadow: .3px .3px 1.7px rgb(95, 94, 94);
+
+}
+.sub-menu{
+    display: none;
+    
+}
+.wrapper ul li:hover .sub-menu{
+    display: inline-flex;
+    position: absolute;
+    
+    width: 300px;
+    right: 154px;
+    padding-left: 10px;
+    top: 3.5%;
+    
+
+}
+
+.sub-menu a{
+    padding-right: 20px;
+}
+    
+header{
+    
+    display:flex; 
+	font-size: 23px;
+	letter-spacing: 6px;
+	
+}
+
+
+.logo{
+    margin-left: 3px;
+    margin-right: auto;
+    
+}
+
+.about{
+    color: grey;
+    text-decoration: none;
+}
+.offerings{
+    color: grey;
+    text-decoration: none;
+}
+
+
+/*
+
+                                                                 Palos Verdes Backround & Constituents
+                                                            
+*/
+
+.backround{
+    position: relative;
+    text-align: center;
+}
+.backround2{
+    position: relative;
+    
+}
+.headlines {
+    width: 100%;
+    position: absolute;
+    
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+   
+  
+    
+    text-shadow: .7px .7px 10px rgb(173, 172, 172);
+    letter-spacing: 5px;
+    
+  
+    
+    font-size: 60px;
+   
+    
+    
+
+}
+
+.headlines3 {
+    width: 100%;
+
+    position: absolute;
+    top: 23%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+
+    text-shadow: .7px .7px 10px rgb(173, 172, 172);    letter-spacing: 1px;
+    
+
+    
+    
+    font-size: 25px;
+    
+
+}
+
+
+.headlines4 {
+    width: 100%;
+
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+
+    text-shadow: .7px .7px 10px rgb(173, 172, 172);    letter-spacing: 1px;
+    
+
+    
+    
+    font-size: 22px;
+    
+
+}
+.buttonone{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    color:white;
+    border: 2px solid white;
+}
+.buttonone:link {
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 3px;
+    font-size: 22px;
+   
+    
+    top: 43%;
+
+    color: white;
+    border: 2px solid white;
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        text-shadow: .7px .7px 10px rgb(95, 94, 94);
+
+    */
+
+  }
+.buttonone:hover {
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 3px;
+    font-size: 22px;
+    
+    top: 43%;
+    color: white;
+    border: 2px solid white;
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-shadow: .7px .7px 10px rgb(95, 94, 94);
+
+    
+
+}
+
+
+
+           /*
+                                                                  Home Page Body
+           */
+
+
+
+.section1{
+position: relative;
+ /*
+   display: grid;
+   grid-template-columns: 50% 50%;
+ /*
+   border-style: dashed;
+   */
+    width: 100%;
+    
+    
+}
+.box1{
+    
+    
+    text-align: center;
+    right: 200px;
+
+    
+
+}
+.experience{
+    
+    
+    
+    color: rgba(0, 0, 0, 0.473);
+  font-size: 50px;
+       
+        width: 100%;
+    
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    text-shadow: .7px .7px 5px rgba(95, 94, 94, 0.644);
+    border-top: 5px solid rgba(0, 128, 0, 0.397);
+    border-radius: 20px;
+    
+
+    
+
+
+}
+.experience1{
+    font-size: 35px;
+
+    color : grey;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    text-shadow: .7px .7px 10px rgba(95, 94, 94, 0.473);
+
+}
+.divider{
+    border-top: 8px solid green;
+}
+
+.box1{
+    border-style: solid;
+}
+
+.firstbody{
+    border-style: solid;
+}
+
+
+
+/*
+
+                                                                 Buttons @ Footers
+*/
+.buttontwo{
+    width:18%;
+    position: absolute;
+    bottom: 1.5%;
+    right: 22.5%;
+    letter-spacing: 3px;
+    font-size: 22px;
+    color: white;
+    border: 2px solid white;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #00355A;
+
+}   
+
+.buttontwo:hover {
+
+    position: absolute;
+    bottom: 1.5%;
+    right: 22.5%;
+    letter-spacing: 3px;
+    font-size: 22px;
+    color: white;
+    border: 2px solid white;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #00355a98;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-shadow: .7px .7px 10px rgb(95, 94, 94);
+
+    
+
+}
+
+.about-page{
+    position: relative;
+}
+.buttontwoo{
+    position: absolute;
+    bottom: 2%;
+    right: 22.5%;
+    letter-spacing: 3px;
+    font-size: 22px;
+    color: white;
+    border: 2px solid white;
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #00355A;
+
+}   
+
+.buttontwoo:hover {
+
+    position: absolute;
+    bottom: 2%;
+    right: 22.5%;
+    letter-spacing: 3px;
+    font-size: 22px;
+    color: white;
+    border: 2px solid white;
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #00355a98;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-shadow: .7px .7px 10px rgb(95, 94, 94);
+
+
+}
+
+
+.offerings-box{
+    position: relative;
+}
+.buttonthree{
+    position: absolute;
+    bottom: 2%;
+    right: 22.5%;
+    letter-spacing: 3px;
+    font-size: 22px;
+    color: white;
+    border: 2px solid white;
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #00355A;
+
+}   
+
+.buttonthree:hover {
+
+    position: absolute;
+    bottom: 2%;
+    right: 22.5%;
+    color: white;
+    border: 2px solid white;
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #00355a98;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-shadow: .7px .7px 10px rgb(95, 94, 94);}
+
+    
+
+    
+    
+
+.offerings2-box{
+    position: relative;
+}
+.buttonfour {
+    position: absolute;
+    bottom: 2%;
+    right: 22.5%;
+    letter-spacing: 3px;
+    font-size: 22px;
+    color: white;
+    border: 2px solid white;
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #00355A;
+
+}      
+
+
+.buttonfour:hover {
+
+    position: absolute;
+    bottom: 2%;
+    right: 22.5%;
+    color: white;
+    border: 2px solid white;
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #00355a98;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-shadow: .7px .7px 10px rgb(95, 94, 94);}
+/*
+
+                                                                 Contact Form
+*/
+.wrap{
+    text-align: center;
+
+}
+
+.containertwo{
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    align-content: center;
+    box-sizing: border-box;
+    
+    max-width: 700px;
+    width: 100%;
+    
+    top: 20%;
+    letter-spacing: 3px;
+    
+}
+
+.containertwo .title{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.containertwo form .user-details{
+    font-size: 30px;
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+    
+ 
+
+}
+
+form .user-details .input-box {
+    margin: 20px 0 12px 0;
+    width: calc(100% / 2 - 20px);
+}
+
+.user-details .input-box input{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 15px;
+    transition: all 0.3s ease;
+}
+
+.user-details .input-box .details{
+    display: block;
+    margin-bottom: 5px;
+}
+
+form .product-details .product-selection{
+    font-size: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+}
+form .product-details .category{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+   
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 14px 0px;
+}
+.product-details .category label{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+   padding-right: 50px;
+   
+  
+}
+.product-details .category .dot{
+    height: 18px;
+    width: 18px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    margin-right: 5px;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+}
+.product-details .category .product3{
+    padding-right: 55px;
+}
+
+
+#dot-1:checked ~ .category label .one,
+#dot-2:checked ~ .category label .two,
+#dot-3:checked ~ .category label .three,
+#dot-4:checked ~ .category label .four{
+    border-color: #d9d9d9;
+    background-color:#00355A; 
+}
+
+form input[type="radio"]{
+    display: none;
+}
+
+form .button-contact{
+    height: 45px;
+    margin: 20px 0;
+
+}
+form .button-contact input{
+    height: 100%;
+    width: 100% ;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background: #00355A;
+    border-radius: 5px;
+    
+    
+}
+
+form .button-contact input:hover{
+    background:#00355ade ;
+}
+
+
+    /*
+    form .user-details .input-box {
+        margin-bottom:15px;
+        width: 100%;
+    }
+    */
+
+
+
+
+
+
